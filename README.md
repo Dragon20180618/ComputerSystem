@@ -1,2 +1,0 @@
-# ComputerSystem
-ComputerSystemStudy
