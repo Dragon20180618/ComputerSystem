@@ -1,0 +1,13 @@
+message_show&control (信息的表示和处理)
+
+十进制起源于千年前的印度，
+12世纪被阿拉伯数学见改进，
+13世纪被意大利数学家Fibonacci(又称Leonardo Pisano)带到西方。
+
+二进制更容易被计算机识别
+
+interpretation 解释
+
+unsigned 无符号
+two's-complement 补码
+floating-point 浮点数
