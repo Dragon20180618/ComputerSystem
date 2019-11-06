@@ -1,0 +1,22 @@
+主存储器M.M（main memory）
+{
+	随机存储器RAM{
+		静态 ：通电存储，不用定时刷新（高速缓冲区）
+		动态 ：通电存储，定时刷新（内存条）
+	}	
+	只读存储器ROM（Read-Only Memory）{
+		MROM
+		PROM（Programmable ROM）可编程只读存储器
+			未编程时储存单元皆为0或1。可进行一次写入
+			熔丝烧断型
+			PN结击穿型
+		EPROM（Erasble Programmable Read Only Memory）可编程可擦除只读存储器
+			可多次修改，通过电或紫外线
+			曝光于紫外线下可清空资料
+		OTPROM （One Time Programmable Read Only Memory）一次编程只读内存
+			写入方式和Erasble Programmable Read Only Memory 同样的写入方法
+
+		EEPROM 
+	}
+	可擦型存储器
+}
