@@ -5,7 +5,8 @@
 		动态 ：通电存储，定时刷新（内存条）
 	}	
 	只读存储器ROM（Read-Only Memory）{
-		MROM
+		MROM （Mask Read Only Memory）掩模式只读存储器
+			在生产过程中直接写入，无法更改
 		PROM（Programmable ROM）可编程只读存储器
 			未编程时储存单元皆为0或1。可进行一次写入
 			熔丝烧断型
@@ -15,8 +16,12 @@
 			曝光于紫外线下可清空资料
 		OTPROM （One Time Programmable Read Only Memory）一次编程只读内存
 			写入方式和Erasble Programmable Read Only Memory 同样的写入方法
-
-		EEPROM 
+			为节省成本，编程写入之后不在抹除，无透明窗
+		EEPROM (Electrically Erasable Programmable Read-Only Memory)电子可擦除可编程只读存储器
+			写入方式和Erasable Programmable Read Only Memory 类似
+			抹除使用高电场
+	为什么EPROM可以进行修改，还被称为只读存储器？
+		EPROM的读写电压不同，EPROM在读时，就没有擦写电压了
 	}
 	可擦型存储器
 }
