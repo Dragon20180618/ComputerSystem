@@ -1,0 +1,2 @@
+打开 cmd
+输入netsh winsock reset并重启电脑
